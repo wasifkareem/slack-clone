@@ -1,6 +1,7 @@
 import React from 'react';
 import { IoMdSearch } from 'react-icons/io';
 import { MdKeyboardArrowDown } from 'react-icons/md';
+import { RxHamburgerMenu } from 'react-icons/rx';
 
 const Navbar = () => {
   const navbarItems = [
@@ -63,12 +64,16 @@ const Navbar = () => {
         >
           <IoMdSearch />
         </button>
-        <div className="flex items-center gap-4">
+        <button className=' sm:hidden'>
+        <RxHamburgerMenu />
+
+        </button>
+        <div className=" hidden sm:flex items-center gap-4">
           <a href="#" className="text-sm font-medium">
             Sign in
           </a>
           <a
-            className="hidden lg:flex border border-[#532755] text-[#532755] text-sm p-3 px-4 rounded-sm font-semibold"
+            className="hidden md:flex border border-[#532755] text-[#532755] text-sm p-3 px-4 rounded-sm font-semibold"
             href="#"
           >
             TALK TO SALES

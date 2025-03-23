@@ -13,7 +13,7 @@ const Hero = () => {
         setTimeout(() => setShowReactions(true), 500);
       }, []);      
 return (
-    <div className=' grid grid-cols-1 lg:grid-cols-2 gap-10 mt-10 '>
+    <div className=' grid grid-cols-1 lg:grid-cols-2 gap-10 mt-5 md:mt-10 '>
             <div className=' flex flex-col text-[#1D1D1E] items-center md:items-start gap-2 md:gap-4 lg:mr-16'>
                     <h1 className=' font-bold text-lg text-center md:text-start md:text-4xl lg:text-6xl md:font-bold'>Slack is where the future works</h1>
                     <p className=' text-center md:text-start lg:leading-[-1.3px]'>Transform the way you work with one place for everyone and everything you need to get stuff done.</p>
