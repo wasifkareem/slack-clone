@@ -23,7 +23,7 @@ return (
             </div>
             </div>
             <div className=' relative rounded-xl '>
-                    <video className=' rounded-xl' src="/assets/hero-video.webm" playsInline poster='https://a.slack-edge.com/0cedc3b/marketing/img/homepage/true-prospects/hero-revamp/static/hero@2x.IN.jpg' loop muted autoPlay></video>
+                    <video className=' rounded-xl ' src="/assets/hero-video.webm" playsInline poster='https://a.slack-edge.com/0cedc3b/marketing/img/homepage/true-prospects/hero-revamp/static/hero@2x.IN.jpg' loop muted autoPlay></video>
                     {showReactions &&
             reactions.map((reaction) => (
                 <div
