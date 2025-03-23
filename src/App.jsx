@@ -5,7 +5,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Notification from './components/Notification'
 import Hero from './components/Hero'
-import Logogallery from './components/logogallery'
+import Logogallery from './components/Logogallery'
 
 function App() {
   const [count, setCount] = useState(0)
