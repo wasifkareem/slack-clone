@@ -12,7 +12,7 @@ const Notification = () => {
        </p>
        </div>
        <div className=' flex items-center'>
-        <button onClick={()=>setIsClosed(true)} className=' text-2xl'>  <IoMdClose />
+        <button onClick={()=>setIsClosed(true)} className='cursor-pointer text-2xl'>  <IoMdClose />
 
         </button>
        </div>
